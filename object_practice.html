@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        
+    </head>
+    <body>
+        <h1>My Library</h1>
+    
+        <!-- This creates the button to add a new book-->
+        <div id="btnNewBook-container">
+            <button id="btnNewBook">
+                Add New Book
+            </button>
+        </div>
+
+        <!-- This creates the design of the form to input data for the book -->
+        <div id="formAddBook-container">
+            <form id="formAddBook" action="script.js">
+
+                <!-- This creates the inputs for the text parameters of the book -->
+                <div id="formInputText">
+                    <p><input type="text" name='title' id='title' placeholder="Title"></p>
+                    <p><input type="text" name="author" id="author" placeholder="Author"></p>
+                    <p><input type="text" name="pages" id="pages" placeholder="pages"></p>
+                </div>
+
+                <!-- This creates the 'read' checkbox for the book -->
+                <div id="formInputRead">
+                    <p><label for="read">Have you read the book?</label><input type="checkbox" id="read" name="read"></p>
+                </div>
+
+                <!-- This creates the button to add the information for the book to the library -->
+                <div id="btnFormSubmit-container">
+                    <button id="btnFormSubmit">
+                        Add Book
+                    </button>
+                </div>
+            </form>
+        </div>
+        
+        <div id="library-container">
+
+        </div>
+
+
+
+
+
+        <script src="script.js" async defer></script>
+    </body>
+</html>
