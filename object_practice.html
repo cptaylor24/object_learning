@@ -2,6 +2,7 @@
 
 <html>
     <head>
+        <link rel="stylesheet" href="style.css">
         
     </head>
     <body>
@@ -16,7 +17,9 @@
 
         <!-- This creates the design of the form to input data for the book -->
         <div id="formAddBook-container">
+            
             <form id="formAddBook" action="script.js">
+                <span class="close">&times;</span>
 
                 <!-- This creates the inputs for the text parameters of the book -->
                 <div id="formInputText">
@@ -32,7 +35,7 @@
 
                 <!-- This creates the button to add the information for the book to the library -->
                 <div id="btnFormSubmit-container">
-                    <button id="btnFormSubmit">
+                    <button id="btnFormSubmit" form="formAddBook">
                         Add Book
                     </button>
                 </div>
